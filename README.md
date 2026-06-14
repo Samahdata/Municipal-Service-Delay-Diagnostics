@@ -81,7 +81,7 @@ Four features were identified and removed as they encode future information unav
 ```
 municipal-service-delay-prediction/
 │
-├── student_starter_notebook.ipynb   # Full 14-phase ML pipeline
+├── municipal_service_delay_diagnostics.ipynb   # Full 14-phase ML pipeline
 ├── municipal_service_diagnostics.db # SQLite database (5 tables)
 ├── Municipal_Service_Report.pdf     # Full diagnostic report
 ├── requirements.txt                 # Dependencies
