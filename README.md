@@ -90,6 +90,8 @@ Without this audit, inflated F1 scores would have produced an **undeployable mod
 ✅ Best Model — Confusion Matrix (Phase 9)
 
 ![Confusion Matrix](Confusion_matrix.png)
+
+The model correctly identified 2,464 true delays (true positives) while missing 2,276 (false negatives) — Recall of 54%
 ---
 
 ## ⚖️ Fairness Analysis — Borough Level (Phase 11)
@@ -102,7 +104,6 @@ Without this audit, inflated F1 scores would have produced an **undeployable mod
 | Other boroughs | 0.54 avg | 0.41 avg | ✅ Acceptable |
 
 **Saint-Laurent finding:** The model misses ~87% of true delays in this borough. Root cause: Saint-Laurent has the highest staffing and income levels in the dataset, shifting its feature distributions relative to other boroughs.
-**The model correctly identified 2,464 true delays (true positives) while missing 2,276 (false negatives) — Recall of 54%
 
 **Recommendation:** Do not use this model to deprioritize or delay responses in Saint-Laurent. A borough-specific model or dedicated monitoring system is required before operational deployment.
 
