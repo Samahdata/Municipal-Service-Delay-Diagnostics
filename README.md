@@ -94,8 +94,7 @@ Without this audit, inflated F1 scores would have produced an **undeployable mod
 
 ## ⚖️ Fairness Analysis — Borough Level (Phase 11)
 
-![Borough Fairness Analysis](fairness_diagnosis.png) 
-
+![Borough Fairness Analysis](Fairness_Diagnosis.png)
 
 | Borough | Recall | F1 | Flag |
 |---|---|---|---|
