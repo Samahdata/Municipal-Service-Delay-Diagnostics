@@ -90,11 +90,13 @@ Without this audit, inflated F1 scores would have produced an **undeployable mod
 ## ✅ Best Model — Confusion Matrix (Phase 9)
 
 ![Confusion Matrix](Confusion matrix.png)
+
 ---
 
 ## ⚖️ Fairness Analysis — Borough Level (Phase 11)
 
 ![Borough Fairness Analysis](Fairness Diagnosis.png)
+
 
 | Borough | Recall | F1 | Flag |
 |---|---|---|---|
